@@ -1,24 +1,21 @@
 # fiverr_hackathon
 
-## Objectif
-Application réalisée dans le cadre du deuxième hackathon de la Wild Code School. L'objectif de l'application est de pouvoir mettre en relation les professionnels inscrits sur Fiverr.
-Dans notre cas, nous avons opté pour la création d'une "Team Fiverr" qui permettrait de travailler à plusieurs sur un même projet. 
+## Goal
+Application realized during the second hackathon of the Wild Code School. The goal of the application is to connect professionals registered on Fiverr. In our case, we opted for the creation of a "Team Fiverr" which would allow several people to work on the same project.
 
-## Technologies utilisées
+## Used technologies
 Front : React Native Expo
-Back : Express.js / MySql
+Back: Express.js / MySql
 
-## Exécuter l'app
-- A exécuter à partir de la branche Dev.
+## Run the app
+- To be executed from the Dev-branch
 - Git clone.
-- NPM install coté application mobile et côté server.
-- Connectez-vous à MySql et lancer le script init.sql et ensuite insert.sql.
-- /server : utiliser le .env.sample pour en faire un fichier .env et utiliser vos informations de connexion à MySql. 
+- NPM install on the mobile application side and server side.
+- Connect to MySql and run the script init.sql and then insert.sql.
+- /server : use the .env.sample and rename it .env. Use your MySql login information.
 - /server : npm run start
-- /mobile : expo start ou npm run start
-- Run sur Expo Go (app mobile à télécharger)
+- /mobile: expo start or npm run start
+- Run on Expo Go (mobile app to download)
 
-## Remarques
-Le Hackathon a duré 3 jours dont 48 heures de code.
-Etant donné certains problèmes techniques, l'application est encore en cours de développement.
-Les appels API Axios doivent encore être mis en place / réglés.
+## Remarks
+The Hackathon lasted 3 days including 48 hours of code. Due to some technical issues, the application is still under development. The Axios API calls still need to be set up / adjusted.
